@@ -1,0 +1,169 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.container_top{
+    height: 84px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007765;
+}
+
+.links, a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.top_main_container{
+    height: 403px;
+    background: url('img/thirst_fon.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.center_top_main_container{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 500;
+}
+.pred_prod{
+    background-color: #eee;
+    height: 719px;
+}
+
+.prod{
+    height: 719px;
+    max-width: 1223px;
+    margin: 0 auto;
+    padding: 0 55px 0;
+
+}
+
+.content{
+    padding-top: 48px;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 37.5px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h5p{
+    align-items: center;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+    color: #007765;
+}
+
+.h5p_block{
+    margin-bottom: 16px;
+}
+
+.set{
+    height: 485px;
+    background: url('img/2nd_fon.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set_cont{
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 56.25px;
+    font-style: italic;
+    font-weight: 500;
+    max-width: 893px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.coin{
+    height: 604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin_content{
+    max-width: 1110px;
+}
+
+figure{
+    float: left;
+    margin-right: 48px;
+}
+
+.zagalovok_coin{
+    margin-bottom: 16px;
+    color: #007765;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.uder_coin{
+    font-size: 32px;
+}
+
+.team{
+    height: 845px;
+    background-color: #eee;
+}
+
+.idi_na_huy{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.zagalovok_team{
+    color: #007765;
+    font-weight: 500;
+    text-align: center;
+    font-size: 64px;
+}
+
+.fotogalary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+.foto{
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+p.jir{
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+}
+
+footer{
+    height: 176px;
+    background: #333333;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
